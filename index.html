@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="b-container">
+      <header class="b-header">
+        <h1 class="e-header__title">Learn to code by watching others</h1>
+        <p class="e-header__text">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+      <main class="b-main">
+        <h2 class="e-main__title">
+          <strong>Try it free 7 days</strong> then $20/mo. thereafter
+        </h2>
+        <form action="submit" class="b-form" novalidate>
+          <fieldset class="e-form__content">
+            <div class="e-form__input-wrapper">
+              <label for="firstName" class="visually-hidden">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name"
+                class="e-form__input"
+              />
+            </div>
+            <div class="e-form__input-wrapper">
+              <label for="lastName" class="visually-hidden">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last Name"
+                class="e-form__input"
+              />
+            </div>
+            <div class="e-form__input-wrapper">
+              <label for="email" class="visually-hidden">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                class="e-form__input"
+              />
+            </div>
+            <div class="e-form__input-wrapper">
+              <label for="password" class="visually-hidden">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="e-form__input"
+              />
+            </div>
+            <button class="e-form__button">Claim your free trial</button>
+          </fieldset>
+          <p class="e-form__subtext">
+            By clicking the button, you are agreeing to our
+            <a href="#" class="e-form__link">Terms and Services</a>
+          </p>
+        </form>
+      </main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
